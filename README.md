@@ -27,16 +27,17 @@ $ python testmail-helper.py
 $ python testmail-helper.py --tag your_tag
 ```
 
-## Outputs
+## Output Example
 ```
 INBOX:
 
 ----------------------------------
-From: 
-Subject:
-Time:
-Testmail.app Tag:
-Content:
+From: dynle
+Subject: Example
+Time: 2023-00-00 00:00:00
+Testmail.app Tag: example
+Content: 
+sample text
 
 ----------------------------------
 ...
