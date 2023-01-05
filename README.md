@@ -7,10 +7,10 @@ Install packages by pip.
 pip install -r requirements.txt
 ```
 
-Make a json file which contains api key and namespace of your Testmail.app account.
+Edit the json file which contains api key and namespace of your Testmail.app account.
 
+[credentials.json](credentials.json)
 ```JSON
-credentials.json
 {
   "myAccount": {
     "apiKey" : "your api key",
