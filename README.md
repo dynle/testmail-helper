@@ -4,13 +4,13 @@ Command-line program using [Testmail.app](https://testmail.app/) API to see inbo
 ## Getting Started
 Install packages by pip.
 ```bash
-pip install -r requirements.txt
+$ pip install -r requirements.txt
 ```
 
 Edit the json file which contains api key and namespace of your Testmail.app account.
 
 [credentials.json](credentials.json)
-```JSON
+```json
 {
   "myAccount": {
     "apiKey" : "your api key",
@@ -21,10 +21,25 @@ Edit the json file which contains api key and namespace of your Testmail.app acc
 ## Usage
 ```bash
 # No tag
-python testmail-helper.py
+$ python testmail-helper.py
 
 # With tag
-python testmail-helper.py --tag your_tag
+$ python testmail-helper.py --tag your_tag
+```
+
+## Outputs
+```
+INBOX:
+
+----------------------------------
+From: 
+Subject:
+Time:
+Testmail.app Tag:
+Content:
+
+----------------------------------
+...
 ```
 
 ## License
