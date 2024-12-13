@@ -29,7 +29,7 @@ response = requests.get(url).json()
 
 print("INBOX:")
 print()
-for email in response['emails']:
+for email in reversed(response['emails']):
     print('-'*60)
     print('From: '+email['from'])
     print('Subject: '+email['subject'])
